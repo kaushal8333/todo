@@ -1,0 +1,83 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    display: flex;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    width: 700px;
+    background-color: rgb(243, 139, 247);
+}
+#todoInput{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 10px;    
+    width: 400px;
+}
+.input-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15px 0 15px;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+
+    list-style-type: none;
+    justify-content: center;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    transition: 0.5s;
+    border-radius: 2rem;
+}
+li{
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 20px;
+    width: 400px;
+    text-align: left;
+}
+.check-field{
+    background-color: green;
+    color: aliceblue;
+}
+
+.completed{
+    background-color: green;
+    /* color: aliceblue; */
+    text-decoration: line-through;
+    /* opacity: 0.5; */
+}
+.trash-btn, 
+.complete-btn {
+    color: white;
+    border: none;
+    padding: 1.5rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+.complete-btn {
+    background: rgb(255, 200, 0);
+}
+
+
+.trash-btn {
+    border-top-right-radius: 1.75rem;
+    border-bottom-right-radius: 1.75rem;
+    background: rgb(171, 171, 171);
+}
